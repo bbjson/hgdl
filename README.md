@@ -9,8 +9,8 @@
 
 | 平台 | 镜像（推荐，快约 5 倍） | 直连 |
 |---|---|---|
-| Ubuntu / Debian x64 | [deb · 镜像](https://gh-proxy.com/https://github.com/bbjson/hgdl/releases/download/v0.4.4/hgdl_0.4.4_amd64.deb) | [deb · GitHub](https://github.com/bbjson/hgdl/releases/download/v0.4.4/hgdl_0.4.4_amd64.deb) |
-| Windows 10/11 x64 | [exe · 镜像](https://gh-proxy.com/https://github.com/bbjson/hgdl/releases/download/v0.4.4/hgdl-0.4.4-setup.exe) | [exe · GitHub](https://github.com/bbjson/hgdl/releases/download/v0.4.4/hgdl-0.4.4-setup.exe) |
+| Ubuntu / Debian x64 | [deb · 镜像](https://gh-proxy.com/https://github.com/bbjson/hgdl/releases/download/v1.0.0/hgdl_1.0.0_amd64.deb) | [deb · GitHub](https://github.com/bbjson/hgdl/releases/download/v1.0.0/hgdl_1.0.0_amd64.deb) |
+| Windows 10/11 x64 | [exe · 镜像](https://gh-proxy.com/https://github.com/bbjson/hgdl/releases/download/v1.0.0/hgdl-1.0.0-setup.exe) | [exe · GitHub](https://github.com/bbjson/hgdl/releases/download/v1.0.0/hgdl-1.0.0-setup.exe) |
 
 镜像挂掉时可以换这些前缀（用法相同，前缀 + GitHub 地址）：
 
@@ -21,16 +21,16 @@ https://ghproxy.cc/       https://gh-proxy.org/
 
 ### 安装
 
-- Linux：`sudo apt install ./hgdl_0.4.4_amd64.deb`，然后运行 `hgdl`
-- Windows：双击 `hgdl-0.4.4-setup.exe`（用户级安装，不需要管理员）
+- Linux：`sudo apt install ./hgdl_1.0.0_amd64.deb`，然后运行 `hgdl`
+- Windows：双击 `hgdl-1.0.0-setup.exe`（用户级安装，不需要管理员）
 
 两个包都内置 Python 3.12 + PySide6(Qt6) + cryptography，**目标机不需要安装 Python 或任何依赖**。
 
 ### 校验
 
 ```
-hgdl_0.4.4_amd64.deb   6b1ec34d252396ddb346e12f3227da65035ccdc067e6d4eb3200465198d88cbe
-hgdl-0.4.4-setup.exe   55081da06cfd5eeb053481c4612c931df0ee17f771d81409d2bbd4cda857e1b5
+hgdl_1.0.0_amd64.deb   1656eac9d245a44eb9b72076084d515b6046e75c03e13a967ce1b068e8b77b91
+hgdl-1.0.0-setup.exe   a209e4d2bc8cbcc3afe6b7c2068314b00535ab3c57164cc50946ba71ef307f17
 ```
 
 下载目录：`~/Videos/红果短剧/<剧名>/第NNN集.mp4`
